@@ -218,7 +218,10 @@ export default function Landing() {
 
         <footer className="l-footer">
           <span>LAMDA &nbsp;·&nbsp; lamda.mov</span>
-          <span>DA SUITE &nbsp;·&nbsp; dasuite.mov</span>
+          <span style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
+            <a href="https://dasuite.mov/legal" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.6 }}>Legal &amp; Privacy</a>
+            <span>DA SUITE &nbsp;·&nbsp; dasuite.mov</span>
+          </span>
         </footer>
 
       </div>
